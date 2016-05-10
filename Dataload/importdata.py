@@ -1,7 +1,8 @@
 # Reading article details from input text file.
 """This script reads the text file and make a python list out of it."""
+import pandas as pd
 
-articlelist = []
-with open("/Users/jeevananthamganesan/\
-Inputdata_github/Article.txt") as f:
-    data = f.readlines()
+data = pd.read_csv('/Users/jeevananthamganesan/\
+Inputdata_github/Articlev1.csv', sep=",", header=True)
+
+print data.head(10)
