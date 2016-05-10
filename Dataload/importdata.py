@@ -2,6 +2,6 @@
 """This script reads the text file and make a python list out of it."""
 
 articlelist = []
-with open("/Users/jeevananthamganesan/Documents/\
+with open("/Users/jeevananthamganesan/\
 Inputdata_github/Article.txt") as f:
     data = f.readlines()
