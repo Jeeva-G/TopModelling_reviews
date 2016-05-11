@@ -5,4 +5,4 @@ import pandas as pd
 data = pd.read_csv('/Users/jeevananthamganesan/\
 Inputdata_github/Articlev1.csv', sep=",", header=True)
 
-print data.head(10)
+# print data.head(10)
